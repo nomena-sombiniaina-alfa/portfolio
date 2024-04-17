@@ -113,7 +113,7 @@
 
                         <ul class="list-group">
                             {% for certificate in category.certificat_set.all %}
-                                <li class="list-group-item list-group-item-action list-group-item-dark">
+                                <li class="list-group-item list-group-item-action list-group-item-light">
                                     <a href="{{certificate.url}}">{{ certificate.title }}</a>
                                 </li>
                             {% endfor %}
@@ -228,31 +228,31 @@
         <div class="container">
            <h2>Contacts</h2>
             <ul class="list-group">
-                <li class="list-group-item list-group-item-action list-group-item-dark">
+                <li class="list-group-item list-group-item-action list-group-item-light">
                     <a href="mailto:{{profile.email}}" class="space-between">
                         <span>Email :</span>
                         <span>{{profile.email}}</span>
                     </a>
                 </li>
-                <li class="list-group-item list-group-item-action list-group-item-dark">
+                <li class="list-group-item list-group-item-action list-group-item-light">
                     <a href="tel:{{profile.number}}" class="space-between">
                         <span>Phone number : </span>
                         <span>{{profile.number}}</span>
                     </a>
                 </li>
-                <li class="list-group-item list-group-item-action list-group-item-dark">
+                <li class="list-group-item list-group-item-action list-group-item-light">
                     <a href="{{profile.linkedin}}" class="space-between">
                         <span>Linkedin :  </span>
                         <span>Nomena Sombiniaina Alfa ANDRIAMIFIDISOA</span>
                     </a>
                 </li>
-                <li class="list-group-item list-group-item-action list-group-item-dark">
+                <li class="list-group-item list-group-item-action list-group-item-light">
                     <a href="{{profile.github}}" class="space-between">
                         <span>Github : </span>
                         <span>nomena-sombiniaina-alfa</span>
                     </a>
                 </li>
-                <li class="list-group-item list-group-item-action list-group-item-dark">
+                <li class="list-group-item list-group-item-action list-group-item-light">
                     <p class="space-between">
                         <span>Address : </span>
                         <span>{{ profile.address }}</span>
