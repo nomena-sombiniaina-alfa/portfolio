@@ -6,7 +6,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-t*&(k$i+rhh62e#0hcohfgi!ms!44@@ke*)rk)q5(=v(-8cay@'
 
 DEBUG = True
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'hackibosy.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'hackibosy.pythonanywhere.com', 'hackibosy3.pythonanywhere.com']
 
 
 
